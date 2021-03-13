@@ -31,12 +31,13 @@ namespace Practic
                     this.number = value;
                 }
                 else {
-                    Console.WriteLine("Don`t work");
+                    Console.WriteLine("Number of client isn`t correct");
                 }
                 
             }
         }
-        public Client(string name, string number)
+
+        public Client(string name="NoName", string number="+3800000000")
         {
             Name = name;
             Number = number;
